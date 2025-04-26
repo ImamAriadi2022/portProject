@@ -4,6 +4,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 const Hero = () => {
   return (
     <div
+    id='#'
       className="hero-section text-white text-center py-5"
       style={{
         background: 'url("/bg-hero.png")', // Ganti dengan URL mural/doodle
@@ -58,6 +59,7 @@ const Hero = () => {
             >
               A place where creativity meets technology. Let's build something amazing together!
             </p>
+            <br />
             <Button
               variant="primary"
               size="lg"

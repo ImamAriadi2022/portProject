@@ -4,27 +4,28 @@ import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 const Projects = () => {
   const projectData = [
     {
-      title: 'Project 1',
-      description: 'This is a brief description of Project 1.',
-      image: 'https://via.placeholder.com/300',
-      link: '#',
+      title: 'UnilaMate.Ai',
+      description: 'Prototype Website Ai Chatbot',
+      image: '/project/task1.png',
+      link: 'https://portfolio.cbraind.my.id/',
     },
     {
-      title: 'Project 2',
-      description: 'This is a brief description of Project 2.',
-      image: 'https://via.placeholder.com/300',
-      link: '#',
+      title: 'Web IOT',
+      description: 'Website dashboard untuk monitoring hasil output dari sensor suhu dan kelembapan DHT11',
+      image: '/project/task3.png',
+      link: 'https://portfolio2.cbraind.my.id/',
     },
     {
-      title: 'Project 3',
-      description: 'This is a brief description of Project 3.',
-      image: 'https://via.placeholder.com/300',
-      link: '#',
+      title: 'Tiketku',
+      description: 'Website pemesanan tiket pesawat',
+      image: '/project/task2.png',
+      link: 'https://portfolio3.cbraind.my.id/',
     },
   ];
 
   return (
     <div
+        id="projects"
       className="projects-section py-5"
       style={{
         background: 'url("/bg-doodle.png")', // Ganti dengan URL latar belakang doodle

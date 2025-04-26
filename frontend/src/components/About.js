@@ -4,6 +4,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 const About = () => {
   return (
     <div
+      id="about"
       className="about-section text-white text-center"
       style={{
         background: 'url("/bg-doodle.png")', // Ganti dengan URL latar belakang doodle/mural
@@ -46,11 +47,12 @@ const About = () => {
             </h2>
           <Col md={6}>
             <Image
-              src="https://via.placeholder.com/300"
+              src="/logo.jpg"
               roundedCircle
               alt="Profile"
               className="mb-4"
               style={{
+                width: '400px',
                 boxShadow: '0 4px 12px rgba(0, 0, 0, 0.3)', // Efek bayangan halus
                 border: '5px solid #ffcc00', // Border kuning cerah untuk gambar
                 backgroundColor: '#ffffff', // Latar belakang putih untuk gambar

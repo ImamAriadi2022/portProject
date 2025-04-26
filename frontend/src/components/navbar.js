@@ -29,7 +29,7 @@ const NavigationBar = () => {
         >
           {/* Logo */}
           <img
-            src="https://via.placeholder.com/40" // Ganti dengan URL logo Anda
+            src="/logo.jpg" // Ganti dengan URL logo Anda
             alt="Logo"
             style={{
               width: '40px',
@@ -54,7 +54,7 @@ const NavigationBar = () => {
           <Nav className="ms-auto">
             <Nav.Link
               as={Link}
-              to="/"
+              to="#"
               style={{
                 color: '#ffffff',
                 fontFamily: "'Comic Neue', cursive", // Font bergaya santai
@@ -69,7 +69,7 @@ const NavigationBar = () => {
             </Nav.Link>
             <Nav.Link
               as={Link}
-              to="/about"
+              to="#about"
               style={{
                 color: '#ffffff',
                 fontFamily: "'Comic Neue', cursive", // Font bergaya santai
@@ -84,7 +84,7 @@ const NavigationBar = () => {
             </Nav.Link>
             <Nav.Link
               as={Link}
-              to="/projects"
+              to="#projects"
               style={{
                 color: '#ffffff',
                 fontFamily: "'Comic Neue', cursive", // Font bergaya santai
